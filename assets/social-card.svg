@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff7fa"/>
+  <path d="M0 530h1200v100H0z" fill="#f9e9ef"/>
+  <rect x="120" y="155" width="132" height="132" rx="28" fill="#c83e72"/>
+  <path d="M147 250v-58h15l24 31 24-31h15v58h-17v-31l-22 27-22-27v31z" fill="#fff7fa"/>
+  <text x="292" y="245" fill="#291923" font-family="Avenir Next, sans-serif" font-size="92" font-weight="700">Mynegy</text>
+  <text x="122" y="360" fill="#c83e72" font-family="Avenir Next, sans-serif" font-size="45" font-weight="600">Think clearly. Speak confidently.</text>
+</svg>
