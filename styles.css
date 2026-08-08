@@ -18,11 +18,7 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: "Avenir Next", Avenir, "Trebuchet MS", sans-serif;
-  background:
-    linear-gradient(rgba(200, 62, 114, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(200, 62, 114, 0.035) 1px, transparent 1px),
-    var(--bg);
-  background-size: 32px 32px;
+  background: var(--bg);
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
