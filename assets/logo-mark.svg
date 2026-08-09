@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mynegy">
-  <rect width="64" height="64" rx="14" fill="#c83e72"/>
-  <path d="M14 45V19h7l11 14 11-14h7v26h-8V31L32 43 22 31v14z" fill="#fff7fa"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Mynegy">
+  <defs>
+    <mask id="m-cutouts">
+      <rect width="1024" height="1024" fill="white"/>
+      <g fill="none" stroke="black" stroke-linecap="round">
+        <path d="M315 405 C363 451 363 573 315 619" stroke-width="18"/>
+        <path d="M331 443 C355 478 355 546 331 581" stroke-width="14"/>
+        <path d="M709 405 C661 451 661 573 709 619" stroke-width="18"/>
+        <path d="M693 443 C669 478 669 546 693 581" stroke-width="14"/>
+      </g>
+    </mask>
+  </defs>
+  <g fill="none" stroke="#DB2777" stroke-linecap="round">
+    <path d="M158 512 V512 M178 492 V532 M198 468 V556 M218 442 V582 M238 416 V608" stroke-width="18"/>
+    <path d="M866 512 V512 M846 492 V532 M826 468 V556 M806 442 V582 M786 416 V608" stroke-width="18"/>
+  </g>
+  <path d="M300 650 L326 345 Q330 300 356 294 Q385 288 406 331 L512 548 L618 331 Q639 288 668 294 Q694 300 698 345 L724 650" fill="none" stroke="#DB2777" stroke-width="104" stroke-linecap="round" stroke-linejoin="round" mask="url(#m-cutouts)"/>
 </svg>

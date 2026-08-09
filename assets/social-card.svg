@@ -1,8 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fff7fa"/>
-  <path d="M0 530h1200v100H0z" fill="#f9e9ef"/>
-  <rect x="120" y="155" width="132" height="132" rx="28" fill="#c83e72"/>
-  <path d="M147 250v-58h15l24 31 24-31h15v58h-17v-31l-22 27-22-27v31z" fill="#fff7fa"/>
-  <text x="292" y="245" fill="#291923" font-family="Avenir Next, sans-serif" font-size="92" font-weight="700">Mynegy</text>
-  <text x="122" y="360" fill="#c83e72" font-family="Avenir Next, sans-serif" font-size="45" font-weight="600">Think clearly. Speak confidently.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">Mynegy - Think clearly. Speak confidently.</title>
+  <defs>
+    <mask id="m-cutouts">
+      <rect width="1200" height="630" fill="white"/>
+      <g fill="none" stroke="black" stroke-linecap="round">
+        <path d="M183 263 C198 277 198 313 183 327" stroke-width="6"/>
+        <path d="M188 275 C196 285 196 305 188 315" stroke-width="5"/>
+        <path d="M317 263 C302 277 302 313 317 327" stroke-width="6"/>
+        <path d="M312 275 C304 285 304 305 312 315" stroke-width="5"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="1200" height="630" fill="#FFF5F9"/>
+  <path d="M0 530 H1200 V630 H0 Z" fill="#FCE7F1"/>
+  <g fill="none" stroke="#DB2777" stroke-linecap="round">
+    <path d="M132 295 V295 M139 288 V302 M146 280 V310 M153 271 V319 M160 262 V328" stroke-width="6"/>
+    <path d="M368 295 V295 M361 288 V302 M354 280 V310 M347 271 V319 M340 262 V328" stroke-width="6"/>
+  </g>
+  <path d="M180 338 L189 237 Q190 222 199 220 Q208 218 215 233 L250 305 L285 233 Q292 218 301 220 Q310 222 311 237 L320 338" fill="none" stroke="#DB2777" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" mask="url(#m-cutouts)"/>
+  <text x="402" y="315" fill="#2A1420" font-family="Avenir Next, Avenir, sans-serif" font-size="104" font-weight="700">Mynegy</text>
+  <text x="132" y="420" fill="#DB2777" font-family="Avenir Next, Avenir, sans-serif" font-size="45" font-weight="600">Think clearly. Speak confidently.</text>
 </svg>
