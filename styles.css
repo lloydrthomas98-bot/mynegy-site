@@ -45,7 +45,7 @@ a:hover { text-decoration: underline; }
   height: 64px;
 }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--text); }
-.brand .mark { width: 30px; height: 30px; }
+.brand .mark { width: 44px; height: auto; }
 .nav a { color: var(--muted); margin-left: 22px; font-size: 15px; }
 .nav a:hover { color: var(--text); text-decoration: none; }
 
@@ -66,7 +66,7 @@ a:hover { text-decoration: underline; }
 
 /* Hero */
 .hero { text-align: center; padding: 72px 0 64px; min-height: min(720px, 88vh); display: grid; place-items: center; }
-.hero-mark { width: 82px; height: 82px; margin-bottom: 18px; }
+.hero-mark { width: 160px; height: auto; margin-bottom: 18px; }
 .hero .eyebrow {
   display: inline-block;
   color: var(--accent);
